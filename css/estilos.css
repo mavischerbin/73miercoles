@@ -1,0 +1,30 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+footer{
+    /*verificar margin bottom cuando agrege contenido a la clase conteni*/
+    height: 60px;
+    width: 100%;
+    background-color: rgb(37, 57, 128);
+    position:fixed;
+    bottom: 0;
+}
+
+header/*etiqueta*/{
+background-color: rgb(90, 187, 243);
+height: 80px;/*altura*/
+width:100%;/*ancho*/
+margin: auto;/*m sirve para sentrar un eolemento*/
+
+}
+.contenido{
+    height:800px;
+    width: 80%;
+    margin: auto;
+    background-color:blueviolet;
+    background-image: background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    margin-bottom: 60px;
+}
