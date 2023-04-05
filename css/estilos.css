@@ -1,30 +1,102 @@
-*{
-margin: 0;
-padding:0;
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/-------------tipografia-----------/
+.Edu{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.fw300{
+    font-weight: 300;
+}
+.fw700{
+    font-weight: 700;
+}
+
+header/etiqueta/
+    {
+    background-color: rgb(231, 158, 62);
+    height: 80px;
+    width: 100%;
+    margin: auto;/* sirve para centrar un elemento para el 100% de ancho*/ 
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .marca{
+    font-size: 20pt;
+}
+header .social{
+    font-size: 20pt;
+}
+.social a{
+    text-decoration: none;
+     margin: 0 5px;
+}
+.social a:hover{
+    color:black;
+    text-shadow: 0 0 5px ;
+}
+.contenedor{
+    display: flex; /habilita el flexbox al contenido de mi selector/
+    gap: 10px;
+}
+
+.card{
+    position: relative;
+    width: 30%;
+    height: 500px;
+    background-color: grey;
+    padding: 15px;
+    border-radius: 15px;
+}
+.card .imagen{
+    width: 100%;
+    height: 50%;
+    background-color:blanchedalmond;
+}
+.card .titulo{
+    font-size: 18pt;
+}
+.card .boton{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color:blue;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 12pt;
+    font-family: sans-serif;
+    border-radius: 40px 8px 40px 8px;
+    
+}
+
+.card .boton:hover{
+    box-shadow: 0 0 10px white;
+}
+
+
+body{
+    background-color:khaki;
 }
 footer{
-    /*verificar margin bottom cuando agrege contenido a la clase conteni*/
-    height: 60px;
+    /verificar margin bottom cuando agregue contenido a .contenido/
+    height: 70px;
     width: 100%;
-    background-color: rgb(37, 57, 128);
-    position:fixed;
+    background-color: aquamarine;
+    position: fixed;
     bottom: 0;
 }
 
-header/*etiqueta*/{
-background-color: rgb(90, 187, 243);
-height: 80px;/*altura*/
-width:100%;/*ancho*/
-margin: auto;/*m sirve para sentrar un eolemento*/
-
-}
 .contenido{
-    height:800px;
+    height: 800px;
     width: 80%;
     margin: auto;
-    background-color:blueviolet;
-    background-image: background-color: #8BC6EC;
-    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
-    margin-bottom: 60px;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    margin-bottom: 70px;
 }
