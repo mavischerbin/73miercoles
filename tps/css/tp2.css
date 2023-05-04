@@ -178,3 +178,87 @@
     text-transform: capitalize;
 }
 
+main{
+    padding: 25px;
+    display: flex;
+   flex-direction: column;
+   gap: 35px;
+}
+main ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_mobile{
+    position: fixed;
+    background-color: aquamarine;
+    bottom:0 ;
+    width: 100%;
+}
+.nav_mobile ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_mobile ul li{
+    height: 40px;
+    line-height:40px;
+}
+.nav_mobile ul li a{
+    height: 40px;
+    line-height:40px;
+}
+.nav_mobile a{
+    text-decoration: none
+    text-transform: black;
+}
+.nav_mobile ul li:hover{
+    color: aqua;
+    border-top: solid 4px aqua
+}
+
+.posrel{
+    position: relative;
+}
+.pa{position:absolute;}
+
+
+.banner button{
+    left: 20px;
+}
+.item_menu{
+    background-color: blueviolet;
+}
+.plato{
+    background-color: rgb(19, 3, 34);
+    height: 100px;
+    width:100px ;
+    border-radius:50% ;
+}
+.item_menu p{
+    background-color: chartreuse;
+}
+
+
+.banner{
+    width: 100%;
+    background-color: blue;
+    padding:10px ;
+
+}
+.flex{
+    display: flex;
+
+}
+.centrar_vert{align-items: center;}
+.centrar_h{justify-content: center;}
+
+.valoracion{
+    position:absolute;
+    background-color:pink;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    bottom: 20px;
+    color: brown; 
+}
