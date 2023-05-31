@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+/*CONTENEDOR SCROLLBAR*/
+::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+    border-radius: 5px;
+} 
+
+/* FONDO BARRA SCROLL*/
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+ 
+/* SELECTOR */
+::-webkit-scrollbar-thumb {
+    background: rgb(40, 124, 250);
+    border-radius: 5px;
+}
+
+/* SELECTOR hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(55, 97, 236);
+    ;
+}
+body{
+    width: 100%;
+    background-color: rgb(167, 148, 236);
+}
+.cabeza{
+    background-color:rgb(74, 67, 139);
+    width: 100%;
+    height: 150px; 
+}
+
+
+
+.foto{
+    width: 100%;
+    /* left: 20%; */
+}
+
+.circulo{
+    position:relative;
+    height: 90px;
+    flex: 1 0 90px;
+    width: 90;
+    left: calc(50% - 90px);
+    bottom: 80px;
+    border-radius: -70%;
+}
+
+.foto img{
+    object-fit: cover;
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.foto .nombre{
+    position: relative;
+    text-align: center;
+    bottom: -240px;
+    font-size: 20pt;
+}
+
+.contenedor{
+    position: absolute;
+    /* background-color: aqua; */
+    margin: auto;
+    width: 100%;
+}
+.mensajes{
+    position: relative;
+    left: 80px;
+    bottom: -260px;
+    font-size: 15pt;
+}
+.cajamens{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    position: relative;
+    top: 170px;
+    left: -2px;
+    justify-content: center;
+}
+.card {
+    border: 1px white solid;
+    position: relative;
+    left: 40px;
+    top: 10px;
+    flex: 1 0 190px;     
+    height: 190px;
+    width: 420px;
+    background-color:rgb(152, 161, 243);
+    padding: 30px;
+    border-radius: 20px;
+}
+.posicion{
+    position: relative;
+    bottom: 30px;
+}
+.circuloper{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 14px;
+    border-radius: 100%;
+    background-color:white;
+    justify-content: space-between;
+}
+
+.iconos{
+    position: relative;
+    left: 320px;
+    bottom: -20px;
+    color: black;
+}
+.enviar{
+    position: relative;
+    left: 340px;
+    bottom: -127px;
+}
+.card .nombreper{
+    position: relative;
+    left: 50px;
+    top: -45px;
+}
+.card .nombretra{
+    position: relative;
+    left: 50px;
+    top: -40px;
+}
+.card .capsula-mensaje{
+    position: relative;
+    top:-20px;
+}
+
+.comentario input{
+    text-decoration: none;
+    background-color: rgb(61, 60, 60);
+    position: relative;
+    left: 15px;
+    height: 25px;
+    width: 320px;
+    top: -5px;
+    border-radius: 10px 0px 0px 10px;
+}
+.pa{
+    font-size: 10pt;
+    color: white;
+}
+.pe{
+    font-size: 12pt;
+    color: white;
+}
+.pi{
+    font-size: 14pt;
+    color: white;
+}
+.po{
+    font-size: 16pt;
+    color: white;
+}
+.nav_mobile{
+    height: 35px;
+    width: 100%;
+    background-color: rgb(15, 14, 14);
+    position: fixed;
+    bottom: 0;
+    line-height: 60px;
+}

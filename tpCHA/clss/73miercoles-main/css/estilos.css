@@ -1,0 +1,105 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+/*-------------tipografia-----------*/
+.Edu{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.fw300{
+    font-weight: 300;
+}
+.fw700{
+    font-weight: 700;
+}
+
+header/etiqueta/
+    {
+    background-color: rgb(147, 233, 170);
+    height: 80px;
+    width: 100%;
+    margin: auto;/* sirve para centrar un elemento para el 100% de ancho*/ 
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .marca{
+    font-size: 20pt;
+}
+header .social{
+    font-size: 20pt;
+}
+.social a{
+    text-decoration: none;
+     margin: 0 5px;
+}
+.social a:hover{
+    color:rgb(176, 238, 190);
+    text-shadow: 0 0 5px ;
+}
+.contenedor{
+    display: flex; /*habilita el flexbox al contenido de mi selector*/
+    gap: 10px;
+    margin: auto;
+}
+
+.card{
+    position: relative;
+    flex: 1 0 300px;
+    width: 30%;
+    height: 500px;
+    background-color: rgba(151, 235, 161, 0.834);
+    padding: 15px;
+    border-radius: 15px;
+}
+.card .imagen{
+    width: 100%;
+    height: 50%;
+    background-color:rgb(193, 243, 212);
+}
+.card .titulo{
+    font-size: 18pt;
+}
+.card .boton{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color:rgb(193, 243, 212);
+    padding: 10px 30px;
+    color: rgb(4, 126, 47);
+    text-decoration: none;
+    font-size: 12pt;
+    font-family: sans-serif;
+    border-radius: 40px 8px 40px 8px;
+    
+}
+
+.card .boton:hover{
+    box-shadow: 0 0 10px rgb(82, 145, 129);
+}
+
+
+body{
+    background-color:rgb(28, 110, 78);
+}
+footer{
+    /*verificar margin bottom cuando agregue contenido a .contenido*/
+    height: 70px;
+    width: 100%;
+    background-color: rgb(34, 123, 92);
+    position: fixed;
+    bottom: 0;
+}
+
+.contenido{
+    height: 800px;
+    width: 80%;
+    margin: auto;
+    background-color: #57a38b;
+    background-image: linear-gradient(45deg, #85ffb4 0%,rgb(57, 207, 124) 100%);
+    margin-bottom: 60px;
+    margin: auto;
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width:662px) {
+    .contenido{
+        width: 100% ;
+    }
+   
+    .contenedor{
+        flex-direction: column;
+
+    }
+   
+     .card{
+        
+     }
+}
